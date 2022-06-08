@@ -1,0 +1,19 @@
+---
+title: "ISDS Citation Network"
+author: "Chanya Punyakumpol"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+date: "Last edited `r format(Sys.Date(), '%B %d, %Y')`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About this blog
+This page documents the empirical analysis of investor-state dispute settlement (ISDS) citation network. It is a part of my Ph.D. work. The work and the opinions are entirely my own. All rights reserved.
+
+# I. Loading the data from GitHub
+The data sets are available from my GitHub [here](https://github.com/chanyaaaa/WTO_ISDS_Precedent). There are two 
