@@ -1,5 +1,5 @@
 ---
-title: "ISDS Citation Network"
+title: "ISDS Citation Network Analysis"
 author: "Chanya Punyakumpol"
 output: 
   html_document:
@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # About this blog
-This page documents the empirical analysis of investor-state dispute settlement (ISDS) citation network. It is a part of my Ph.D. work. The work and the opinions are entirely my own. All rights reserved.
+This page documents the empirical analysis of investor-state dispute settlement (ISDS) citation network analysis. It is a part of my Ph.D. work. The work and the opinions are entirely my own. All rights reserved.
 
 # I. Loading the data from GitHub
-The data sets are available from my GitHub [here](https://github.com/chanyaaaa/WTO_ISDS_Precedent). There are two 
+The data sets are available from my GitHub [here](https://github.com/chanyaaaa/WTO_ISDS_Precedent). There are two data sets for the analysis. First is the meta data which contains different attributes of ISDS disputes. The other is the adjacency matrix, containing a binary value that records a citation between any given pair of the disputes.
+
+
