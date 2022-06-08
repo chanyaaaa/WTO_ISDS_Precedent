@@ -18,4 +18,11 @@ This page documents the empirical analysis of investor-state dispute settlement 
 # I. Loading the data from GitHub
 The data sets are available from my GitHub [here](https://github.com/chanyaaaa/WTO_ISDS_Precedent). There are two data sets for the analysis. First is the meta data which contains different attributes of ISDS disputes. The other is the adjacency matrix, containing a binary value that records a citation between any given pair of the disputes.
 
-
+``` {r load necessary packages, message = FALSE}
+library(readxl) 
+library(tidyverse)
+library(knitr)
+library(RColorBrewer)
+library(RSiena)
+library(parallel)
+```
